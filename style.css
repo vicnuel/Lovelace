@@ -1,0 +1,98 @@
+/* fonte ubuntu 400 */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+}
+
+body::-webkit-scrollbar {
+    width: 0 !important;
+  }
+
+#header{
+    width: 100%;
+    height: auto;
+    background: #332347;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#header a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+
+#header img{
+    width: 5vh;
+    
+}
+
+#header h1{
+    font-size: 1.2rem;
+    margin: 0 0 0 0.5vw;
+    padding: 0;
+}
+
+#menu{
+    margin-left: 2vw;
+}
+
+#menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#menu ul li{
+    margin: 0 0.5vw;
+    font-size: 1rem;
+}
+
+#menu ul li a{
+    border-bottom: 2px solid #332347;
+}
+
+#menu ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 500px){
+   #header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+   } 
+    #header a{
+         margin: 0 0 0.6vh 0;
+    }
+    #menu ul li{
+        margin: 0 4vw 0 0;
+    }
+}
+    
