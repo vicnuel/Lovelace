@@ -71,8 +71,10 @@
     font-size: 1.3rem;
     transform: translateX(-50%);
 }
+
 .main{
     height: 93vh;
+    width: 100%;
     position: absolute;
     top: 7vh;
     display: flex;
@@ -104,7 +106,7 @@
 .arrowScroll {
     /* fixar em baixo */
     position: absolute;
-    bottom: 1%;
+    bottom: 1vh;
     left: 50%;
     transform: translateX(-50%);
 
@@ -117,10 +119,13 @@
     
     animation: arrowScroll 1s infinite ease-in-out alternate;
 
+    /* inverter cor */
+    filter: invert(100%);
+
   }
   @keyframes arrowScroll {
     0% {
-        bottom: 2%;
+        bottom: 2vh;
     }
     100% {
         bottom: 0;
@@ -140,6 +145,7 @@
     .title h1{
         font-size: 3.5rem;
     }
+    
     .title p{
         font-size: 1.7rem;
     }
@@ -149,6 +155,7 @@
     .header{
         padding: 1% 5%;
     }
+
     .menu{
         display: none;
     }
@@ -162,9 +169,11 @@
     .logo h1{
         margin-left: 0.2rem;
     }
+
     .title h1{
         font-size: 2.2rem;
     }
+
     .title p{
         font-size: 1rem;
     }
@@ -182,7 +191,9 @@
     .title h1{
         font-size: 2rem;
     }
+    
     .title p{
+       
         font-size: 0.5rem;
     }
     .main{
@@ -190,8 +201,11 @@
     }
 }
 
-@media screen and (max-height: 300px){
+@media screen and (max-height: 416px){
     .title h1{
         font-size: 2.1rem;
+    }
+    .title p{
+        font-size: 1rem;
     }
 }
