@@ -9,7 +9,7 @@
     
 }
 .header {
-    height: 7vh;
+    height: 7%;
     background: linear-gradient(90.02deg, #8D36FA 0.85%, #A15FF3 35.94%, #A15FF3 99.93%);
     /* background: linear-gradient(90.02deg, rgba(141, 54, 250, 0.88) 0.85%, rgba(161, 95, 243, 0.88) 35.94%, rgba(161, 95, 243, 0.88) 99.93%); */
     color: #fff;
@@ -73,10 +73,10 @@
 }
 
 .main{
-    height: 93vh;
+    height: 93%;
     width: 100%;
     position: absolute;
-    top: 7vh;
+    top: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,7 +191,7 @@
     .title h1{
         font-size: 2rem;
     }
-    
+
     .title p{
        
         font-size: 0.5rem;
