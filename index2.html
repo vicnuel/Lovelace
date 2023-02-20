@@ -8,7 +8,7 @@
     <title>Lovelace</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body class="container-fluid">
@@ -16,8 +16,8 @@
     <div class="main">
         <div class="secondary">
 
-            <nav class="header nav">
-                <a class="logo" href="./">
+            <nav class="header navbar navbar-expand-lg navbar-light">
+                <a class="logo navbar-brand" href="./">
                     <img src="./img/logo.png" alt="logotipo">
                     <div>
                         <h1>LOVELACE</h1>
@@ -25,13 +25,24 @@
                     </div>
 
                 </a>
-
-                <ul class="menu nav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="menu navbar-nav">
+                        <li><a href="#startup">Startup</a></li>
+                        <li><a href="#products">Produtos</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <!-- <ul class="menu nav">
                     <li><a href="#startup">Startup</a></li>
                     <li><a href="#products">Produtos</a></li>
                     <li><a href="#">Equipe</a></li>
                     <li><a href="#">Blog</a></li>
-                </ul>
+                </ul> -->
 
             </nav>
             <div class="title container align-middle">
@@ -47,7 +58,7 @@
     </div>
     <div class="startup container-fluid" id="startup">
         <div class="container-fluid contents">
-            <div class="container text text1">
+            <div class="container text">
                 <h1>Lovelace Technology</h1>
                 <p><span>A</span> startup Lovelace Technology surgiu com uma ideia simples e concisa, ressignificar o
                     processo de inclusão através da tecnologia. Dessa forma, passamos a pensar e a desenvolver projetos
@@ -208,7 +219,7 @@
     <div class="footer container-fluid">
         Copyright © 2023 Lovelace Technology. Todos os direitos reservados.
     </div>
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -216,7 +227,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script> -->
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
