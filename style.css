@@ -24,7 +24,7 @@
     overflow: hidden;
     /* box-sizing: border-box; */
 
-    background-image: url(../img/background.png);
+    background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
