@@ -72,8 +72,8 @@
 }
 
 .main .title {
-    margin-top: 9rem;
-    margin-bottom: 19rem;
+    margin-top: 8rem;
+    margin-bottom: 13rem;
     text-align: center;
 }
 
@@ -90,26 +90,27 @@
 
 .arrowScroll {
     /* fixar em baixo */
-    position: absolute;
+    /* position: absolute;
     bottom: 1%;
     left: 50%;
-    transform: translateX(-50%);
-
-    width: 7%;
-    height: 7%;
+    transform: translateX(-50%); */
+    margin: auto;
+    width: 100%;
+    height: 2rem;
+    margin-bottom: 2rem;
     background-image: url(./img/arrowDown.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 
-    animation: arrowScroll 1s infinite ease-in-out alternate;
+    /* animation: arrowScroll 1s infinite ease-in-out alternate; */
 
     /* inverter cor */
     filter: invert(100%);
 
 }
 
-@keyframes arrowScroll {
+/* @keyframes arrowScroll {
     0% {
         bottom: 2%;
     }
@@ -117,7 +118,7 @@
     100% {
         bottom: 0;
     }
-}
+} */
 
 .startup {
     display: flex;
