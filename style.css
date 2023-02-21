@@ -987,3 +987,21 @@
         font-size: 1.5rem;
     }
 }
+
+@media screen and (max-height: 700px) and (max-width: 990px) {
+    .main .title {
+        margin-top: 5rem;
+        margin-bottom: 7rem;
+    }
+}
+   
+@media screen and (max-height: 500px) and (max-width: 990px) {
+    .main .title {
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .main .title h1 {
+        font-size: 2.5rem;
+    }
+}
