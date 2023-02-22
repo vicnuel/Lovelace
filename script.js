@@ -8,5 +8,5 @@ button_products.addEventListener("click", function () {
 
 button_blog.addEventListener("click", function () {
     // redirect to blog site
-    window.open("https://blog.spokentext.com.br", "_blank")
+    window.open("https://blog.lovelacetech.com.br", "_blank")
 })
