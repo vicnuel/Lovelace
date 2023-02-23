@@ -90,7 +90,7 @@ body {
 }
 
 .logo img {
-    height: 12vh;
+    height: 5.5rem;
     margin-right: 0.6rem;
 }
 
@@ -564,7 +564,7 @@ body {
 }
 .contact .logo img {
     /* width: 100%; */
-    height: 18vh;
+    height: 8rem;
     /* object-fit: cover; */
     /* border-radius: 15px; */
 }
@@ -939,7 +939,7 @@ body {
     /* contact */
     .contact .logo img {
         height: auto;
-        width: 30vw;
+        width: 7.5rem;
     }
     .contact .links ul li {
         margin-right: 3%;
