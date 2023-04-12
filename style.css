@@ -418,6 +418,13 @@ body {
     /* border-radius: 15px; */
 }
 
+.blog .news .news_item .adequar {
+    /* borda arredondada */
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+
+}
+
 .blog .news .news_item h1 {
     font-family: 'Ubuntu';
     font-style: normal;
